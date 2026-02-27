@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  // output: 'export' removed - using Netlify Next.js runtime instead
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
   // Disable ESLint during builds (optional)
   eslint: {
     ignoreDuringBuilds: true,
